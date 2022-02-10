@@ -1,5 +1,5 @@
-import React, { useState }from "react";
-import Planet from "./custom/Planet";
+import React, { useState } from "react";
+import Planet from "./card/Planet";
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query';
 
 const queryClient = new QueryClient();
