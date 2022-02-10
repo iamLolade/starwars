@@ -41,3 +41,21 @@ button:hover {
 .content {
   text-align: left;
 }
+
+.card {
+  padding: 10px 20px;
+  background: #1b1b1b;
+  margin: 16px 0;
+  border-radius: 20px;
+}
+
+.card p {
+  margin: 6px 0;
+  color: #999;
+  letter-spacing: 2px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: #ffff57;
+}
