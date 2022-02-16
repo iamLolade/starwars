@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: url("https://steamuserimages-a.akamaihd.net/ugc/1789595005891477590/790DCD7114B048AB030C5251F0A7FBC936CC9396/?imw=1024&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false") no-repeat fixed;
+  background: url("./image/background.jpeg") no-repeat fixed;
   background-size: cover;
   color: #ddd;
   text-align: center;
