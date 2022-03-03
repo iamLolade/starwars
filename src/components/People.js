@@ -27,17 +27,19 @@ const People = () => {
 
             {status === "success" && (
                 <>
-                    <button
-                        onClick={() => setPage(prev => Math.max(prev - 1, 1))}
-                        disabled={page === 1}
-                    >Previous</button>
-                    <span>{ page }</span>
-                    <button
-                        onClick={() => setPage(prev => (!latestData || !latestData.next ? prev : prev + 1))}
-                        disabled={!latestData || !latestData.next}
-                    >Next</button>
-                    <div>
-                        { resolvedData.results.map(person => <Person key={person.name} person={person}/>)}
+                    <div className="button">
+                        <button
+                            onClick={() => setPage(prev => Math.max(prev - 1, 1))}
+                            disabled={page === 1}
+                        >Previous</button>
+                        <span>{ page }</span>
+                        <button
+                            onClick={() => setPage(prev => (!latestData || !latestData.next ? prev : prev + 1))}
+                            disabled={!latestData || !latestData.next}
+                        >Next</button>
+                        <div>
+                            { resolvedData.results.map(person => <Person key={person.name} person={person}/>)}
+                        </div>
                     </div>
                 </>
             )}
