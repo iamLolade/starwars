@@ -27,7 +27,7 @@ const People = () => {
 
             {status === "success" && (
                 <>
-                    <div className="button">
+                    <div>
                         <button
                             onClick={() => setPage(prev => Math.max(prev - 1, 1))}
                             disabled={page === 1}
